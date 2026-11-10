@@ -12,14 +12,14 @@ useHead({
 })
 
 const title = 'M4id Studios'
-const description = 'A Studio'
+const description = 'A hobby studio team, bringing minecraft mods and servers, plus other games, with a promised priority of user experience and quality to the best of our ability!'
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
+  ogImage: 'https://cdn.discordapp.com/attachments/1449244199223431250/1547011014246010990/logo-full.png?ex=6af39ac7&is=6af24947&hm=74ae306f30703031414a33cb90825eb3f5aabeefd019ce5ab2563965860af325&',
   twitterCard: 'summary_large_image'
 })
 </script>
