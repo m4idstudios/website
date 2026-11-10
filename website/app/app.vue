@@ -65,7 +65,7 @@ useSeoMeta({
       <NuxtPage />
     </UMain>
 
-    <USeparator />
+<!--    <USeparator class="mc-divider"/>-->
 
     <UFooter>
       <template #left>

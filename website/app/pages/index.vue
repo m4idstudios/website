@@ -3,6 +3,62 @@
     <UPageHero
       title="M4id Studios"
       description="A hobby studio team, bringing minecraft mods and servers, plus other games, with a promised priority of user experience and quality to the best of our ability!"
+    >
+      <template #links>
+        <div class="flex flex-wrap justify-center gap-3">
+          <UButton
+            to="https://discord.m4idstudios.com"
+            target="_blank"
+            icon="i-simple-icons-discord"
+            class="mc-button"
+            color="neutral"
+            variant="solid"
+            size="xl"
+          >
+            Discord
+          </UButton>
+
+          <UButton
+            to="https://modrinth.com/organization/m4idstudios"
+            target="_blank"
+            icon="i-simple-icons-modrinth"
+            class="mc-button"
+            color="neutral"
+            variant="solid"
+            size="xl"
+          >
+            Modrinth
+          </UButton>
+
+          <UButton
+            to="https://github.com/m4idstudios"
+            target="_blank"
+            icon="i-simple-icons-github"
+            class="mc-button"
+            color="neutral"
+            variant="solid"
+            size="xl"
+          >
+            GitHub
+          </UButton>
+
+<!--          <UButton
+            to="https://doc.m4idstudios.com"
+            target="_blank"
+            icon="i-simple-icons-googledocs"
+            class="mc-button"
+            color="neutral"
+            variant="solid"
+            size="xl"
+          >
+            Documentation
+          </UButton>-->
+        </div>
+      </template>
+    </UPageHero>
+<!--    <UPageHero
+      title="M4id Studios"
+      description="A hobby studio team, bringing minecraft mods and servers, plus other games, with a promised priority of user experience and quality to the best of our ability!"
       :links="[
 /*        {
           label: 'Documents Site',
@@ -45,7 +101,7 @@
           variant: 'subtle'
         }
       ]"
-    />
+    />-->
 
 <!--    <UPageSection
       id="features"
