@@ -26,6 +26,15 @@ useSeoMeta({
 
 <template>
   <UApp>
+    <UCard class="mc-panel">
+      <h1>
+        Work In Progress Website
+      </h1>
+
+      <p>
+        Can't be bothered to make the website, and plus I don't really have anything to put on it anyway. Stay tuned! <3
+      </p>
+    </UCard>
     <!--    <UHeader>
           <template #left>
             <NuxtLink
